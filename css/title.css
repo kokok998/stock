@@ -1,0 +1,89 @@
+#Header
+{
+	position: relative;
+	padding: 5em 0em;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: gray;
+	font-size: 12pt;
+	font-weight: 300;
+	color: black;
+}
+
+ol, ul
+{
+    margin-top: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h2 {
+    margin: 1em 3em;
+}
+
+/*메뉴*/
+#menu {
+	position: absolute;
+	top: 6em;
+	right: 0em;
+
+}
+
+#menu ul {
+	display: inline-block;
+}
+
+#menu li {
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+#menu li a, #menu li span {
+	padding: 1em 1.3em;
+	text-decoration: none;
+	font-weight: 500;
+	color: white;
+}
+
+#menu li:hover a, #menu li.active a {
+	background:  gray;
+	border-radius: 5px;
+}
+
+
+#text {
+	background: white;
+}
+
+#Header-text {
+	background: url(../images/banner.jpg) no-repeat center;
+	background-size: cover;
+	border-top: 10px solid gray;
+}
+
+
+/*제목*/
+#main {
+	padding: 8em 0em;
+}
+
+#main span {
+	display: block;
+	text-align: center;
+	font-weight: 500;
+	font-size: 400%;
+	color: white
+}
+
+
+/*컨테이너*/
+.container
+{
+	margin: 0em auto;
+	width: 1000px;
+	overflow: hidden;
+}

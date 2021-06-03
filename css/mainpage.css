@@ -1,0 +1,86 @@
+
+
+h1, h2, h3
+{
+	margin: 0;
+	padding: 0;
+}
+
+p
+{
+    margin-top: 0;
+	line-height: 180%;
+}
+
+
+
+/*이미지*/
+.img1,  .img2,  .img3 {
+	width: 300px;
+}
+
+.img1,  .img2 {
+    float: left;
+	margin-right: 50px;
+}
+
+.img3 {
+	float: right;
+}
+
+
+
+/*스페이스(이미지 위 글 가운데로)*/
+#space {
+	padding: 5em 0em;
+	text-align: center;
+}
+
+
+/*본문(이미지 아래)*/
+#page {
+	padding-bottom: 5em;
+}
+	
+#page h2 {
+	padding: 0em 0.5em;
+	padding-bottom: 1.5em;
+	font-size: 150%;
+}
+
+#page p {
+	padding: 0em 1em;
+}
+
+
+/*설명 첫부분*/
+
+.title {
+	margin-bottom: 3em;
+}
+
+.title h2 {
+	font-size: 3em;
+	font-weight: 700;
+}
+
+/*설명*/
+#explanation {
+	padding: 5em 0em;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+/*아래*/
+#bottom
+{
+	overflow: hidden;
+	padding: 2em 0em;
+}
+
+#bottom p
+{
+	text-align: center;
+	color: white;
+	font-size: 90%;
+}
